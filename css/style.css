@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background: url("../bac.jpg");
+    min-height: 100vh; background-position: center;
+    background-size: 100vw 100vh;
+    display: flex; justify-content: flex-start;
+    align-items: center; padding: 20px;
+}
+#bord{
+    height: 80vh; width: 40vw;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    opacity: 0.7;
+    box-shadow: 5px 2px 20px 1px skyblue;
+}
+
+.head{
+    background-color: red;
+}
+.snake{
+    background: blueviolet;
+    border-radius: 42px;
+}
+.food{
+    background-color: rgb(108, 187, 4);
+    border: 2px solid black;
+}
+#score{
+    position: relative;
+    color: azure; font-size: 45px;
+    left: 30%;
+}
