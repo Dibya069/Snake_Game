@@ -32,5 +32,5 @@
 #score{
     position: relative;
     color: azure; font-size: 45px;
-    left: 30%;
+    left: 30%; font-weight: bolder;
 }
